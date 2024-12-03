@@ -87,12 +87,14 @@ public class HotelBooking {
         foodMenu.add(new Food("Salad", 8.99)); // Add Salad to the menu
         foodMenu.add(new Food("Steak", 25.99)); // Add Steak to the menu
         foodMenu.add(new Food("Ice Cream", 5.49)); // Add Ice Cream to the menu
+    
     }
+
 
     // Method to create the GUI
     private void createGUI() {
         frame = new JFrame("Hotel Room Booking System"); // Create the main frame with title
         frame.setSize(600, 500); // Set frame size
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Exit on close
-        frame
-
+    }   
+}
