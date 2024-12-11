@@ -4,7 +4,6 @@ import java.util.ArrayList; // Import ArrayList class for dynamic array
 import java.text.DecimalFormat; // To format the total price
 
 
-
 // Room class to represent each hotel room
 class Room {
     private String type; // Type of the room (e.g., Single, Double, Suite)
